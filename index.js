@@ -9,7 +9,7 @@ require('dotenv').config();
 
 const app = express();
 
-mongoose.connect(`mongodb://localhost:27017/${process.env.DATABASE_NAME}`, (err) => {
+mongoose.connect(`${process.env.DATABASE_URL}`, (err) => {
     const dbState = [{
         value: 0,
         label: "disconnected"
