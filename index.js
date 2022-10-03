@@ -1,7 +1,7 @@
 const express = require("express");
 const morgan = require('morgan')
 const mongoose = require("mongoose");
-const session = require("express-session");
+const session = require('cookie-session');
 const cors = require("cors");
 const methodOverride = require('method-override');
 
@@ -12,21 +12,23 @@ const app = express();
 mongoose.connect(`${process.env.DATABASE_URL}`, (err) => {
     const dbState = [{
         value: 0,
-        label: "disconnected"
+        label: "Disconnected"
     }, {
         value: 1,
-        label: "connected"
+        label: "Connected"
     }, {
         value: 2,
-        label: "connecting"
+        label: "Connecting"
     }, {
         value: 3,
-        label: "disconnecting"
+        label: "Disconnecting"
     }], state = mongoose.connection.readyState;
-    console.log(dbState.find(f => f.value == state).label, `to ${process.env.DATABASE_NAME} db`); // connected to db
+    console.log(dbState.find(f => f.value == state).label); // connected to db
 });
 
 app.use(cors());
+
+app.set('trust proxy', 1);
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -37,10 +39,8 @@ app.use(morgan('dev'));
 
 app.use(
     session({
-        secret: process.env.SECRET_KEY ? process.env.SECRET_KEY : 'secret',
-        resave: true,
-        saveUninitialized: true,
-        cookie: { maxAge: +process.env.EXPIRE_TIME }, // 1.5 hours
+        keys: [process.env.SECRET_KEY ? process.env.SECRET_KEY : 'secret'],
+        maxAge: +process.env.EXPIRE_TIME // 1.5 hours
     })
 );
 
@@ -61,6 +61,9 @@ app.all("*", (req, res) => {
     res.send("don't exist this APIs");
 })
 
-app.listen(process.env.PORT, (req, res) => {
-    console.log(`Server running on port ${process.env.PORT}`);
+const PORT = process.env.PORT || 80;
+const HOST = "0.0.0.0"
+
+app.listen(PORT, HOST, (req, res) => {
+    console.log(`Server running on port ${PORT}`);
 })
