@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "63317504d2fd4fc32cccff6f"
+  },
+  "userId": "632f3c858e45f52f4661c7a4",
+  "title": "title~~~~~",
+  "description": "description~~~",
+  "text": "title~~~~~",
+  "location": "USB",
+  "type": "AUDIO",
+  "like": 1,
+  "views": 0,
+  "date": {
+    "$date": {
+      "$numberLong": "1664185604735"
+    }
+  },
+  "file_path": "uploads/posts/R6HFZGp1pyWWwxgsR.webp",
+  "comments": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63317508d2fd4fc32cccff71"
+  },
+  "userId": "632f3c858e45f52f4661c7a4",
+  "title": "title~~~~~",
+  "description": "description~~~",
+  "text": "title~~~~~",
+  "location": "USB",
+  "type": "AUDIO",
+  "like": 0,
+  "views": 0,
+  "date": {
+    "$date": {
+      "$numberLong": "1664185608286"
+    }
+  },
+  "file_path": "uploads/posts/ok7ER06yXnKC7xiOj.webp",
+  "comments": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6331750bd2fd4fc32cccff73"
+  },
+  "userId": "632f3c858e45f52f4661c7a4",
+  "title": "title~~~~~",
+  "description": "description~~~",
+  "text": "title~~~~~",
+  "location": "USB",
+  "type": "AUDIO",
+  "like": 0,
+  "views": 0,
+  "date": {
+    "$date": {
+      "$numberLong": "1664185611201"
+    }
+  },
+  "file_path": "uploads/posts/He9wktlRsmuuCrXM6.webp",
+  "comments": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6331750ed2fd4fc32cccff75"
+  },
+  "userId": "632f3c858e45f52f4661c7a4",
+  "title": "title~~~~~",
+  "description": "description~~~",
+  "text": "title~~~~~",
+  "location": "USB",
+  "type": "AUDIO",
+  "like": 0,
+  "views": 0,
+  "date": {
+    "$date": {
+      "$numberLong": "1664185614290"
+    }
+  },
+  "file_path": "uploads/posts/jEsL0trMtc0ujJODA.webp",
+  "comments": [],
+  "__v": 0
+}]

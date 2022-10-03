@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "632f280f18c201ff5145e629"
+  },
+  "firstname": "eiuser1ght",
+  "lastname": "fury",
+  "username": "eiuser1ght fury",
+  "password": "$2b$11$HYRPFvsjs8efxsx1LSslG.Zhe.UsP1h6tXxA3K8NBFgQ9VPlUm.02",
+  "phone": "123456789",
+  "email": "example1@gmail.com",
+  "country": "USA",
+  "profile_image_path": "uploads/userImg/NsPanXZGNjgYhTusu.jpg",
+  "setting": {
+    "language": "EN",
+    "postType": "VIDEO",
+    "deactivate": false,
+    "postsDisplayMode": "INTERNATIONAL",
+    "_id": {
+      "$oid": "632f280f18c201ff5145e628"
+    }
+  },
+  "__v": 1,
+  "expire_at": "1664272405186",
+  "follows": []
+},{
+  "_id": {
+    "$oid": "632f3c6a8e45f52f4661c796"
+  },
+  "firstname": "Night",
+  "lastname": "fury",
+  "username": "Night fury",
+  "password": "$2b$11$G8TIaylj1EzAvXBkKXFdke7BMPEvb9CLD3e6a0TRIzDVUvtgalvKS",
+  "phone": "123456789",
+  "email": "example2@gmail.com",
+  "country": "USA",
+  "setting": {
+    "language": "EN",
+    "postType": "VIDEO",
+    "deactivate": false,
+    "postsDisplayMode": "INTERNATIONAL",
+    "_id": {
+      "$oid": "632f3c6a8e45f52f4661c795"
+    }
+  },
+  "follows": [],
+  "__v": 0,
+  "profile_image_path": "uploads/userImg/Af3LBq0kPxXS4lLAP.png"
+},{
+  "_id": {
+    "$oid": "632f3c778e45f52f4661c79b"
+  },
+  "firstname": "light",
+  "lastname": "fury",
+  "username": "light fury",
+  "password": "$2b$11$g4r2Sw53Lsih/WsWgvK46uqK/v1bBCNN448hqxND74Zqr29F1Pwya",
+  "phone": "123456789",
+  "email": "example3@gmail.com",
+  "country": "USA",
+  "setting": {
+    "language": "EN",
+    "postType": "VIDEO",
+    "deactivate": false,
+    "postsDisplayMode": "INTERNATIONAL",
+    "_id": {
+      "$oid": "632f3c778e45f52f4661c79a"
+    }
+  },
+  "follows": [],
+  "__v": 0,
+  "profile_image_path": "uploads/userImg/0Yh71z6LyIL6j6tlu.png"
+},{
+  "_id": {
+    "$oid": "632f3c858e45f52f4661c7a4"
+  },
+  "firstname": "Harry",
+  "lastname": "Potter",
+  "username": "Harry Potter",
+  "password": "$2b$11$xr2LqwMmy0P9F6V8LgSj8ergBbpo6rubKg1vU1ZMZznpPnnfRmkOy",
+  "phone": "123456789",
+  "email": "example4@gmail.com",
+  "country": "USA",
+  "setting": {
+    "language": "EN",
+    "postType": "VIDEO",
+    "deactivate": false,
+    "postsDisplayMode": "INTERNATIONAL",
+    "_id": {
+      "$oid": "632f3c858e45f52f4661c7a3"
+    }
+  },
+  "follows": [],
+  "__v": 0,
+  "profile_image_path": "uploads/userImg/cGPJgQKEtKlRqi1XZ.png",
+  "expire_at": "1664272603892"
+}]
