@@ -51,8 +51,8 @@ exports.login = async (req, res, next) => {
 exports.signUp = async (req, res) => {
     try {
         let { username, password } = req.body;
-        const isUsernameTaken = await User.findOne({ username: username })
-        if (isUsernameTaken) throw 'This Username is Already Taken'
+        const isUsernameTaken = await User.findOne({ email: email })
+        if (isUsernameTaken) throw 'This Email is Already Taken'
 
         req.session.user = null;
 
