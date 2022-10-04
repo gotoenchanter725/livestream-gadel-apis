@@ -50,7 +50,7 @@ exports.login = async (req, res, next) => {
 
 exports.signUp = async (req, res) => {
     try {
-        let { username, password } = req.body;
+        let { email, password } = req.body;
         const isUsernameTaken = await User.findOne({ email: email })
         if (isUsernameTaken) throw 'This Email is Already Taken'
 
