@@ -80,7 +80,7 @@ exports.signUp = async (req, res) => {
         }
         const receivers = [
             {
-                email: 'dazzlingstar0831@gmail.com',
+                email: req.body.email.trim(),
             },
         ]
         tranEmailApi
