@@ -1,0 +1,13 @@
+node_modules
+./package-lock.json
+uploads/posts
+uploads/userImg
+uploads/message
+uploads/cover/*
+package-lock.json
+yarn.lock
+.env
+cert.pem
+key.pem
+csr.pem
+.env.production

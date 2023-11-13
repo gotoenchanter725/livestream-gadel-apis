@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgadel=self.webpackChunkgadel||[]).push([[293],{9293:function(e,n,a){a.r(n),a.d(n,{default:function(){return s}});a(7313);var d=a(6417);var s=function(){return(0,d.jsx)("div",{className:"NotFound",children:(0,d.jsx)("header",{className:"NotFound-header",children:(0,d.jsx)("p",{className:"NotFound-text",children:"Page not found"})})})}}}]);
